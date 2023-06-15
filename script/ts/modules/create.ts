@@ -37,6 +37,8 @@ export default class Create {
             this.database.save(tasks)
             this.read.show(tasks)
 
+            this.taskInput.value = ""
+
          } else {
             alert("Something's wrong, please check the task form")    
          }
